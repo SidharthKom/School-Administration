@@ -69,6 +69,7 @@ class account
       cout<<"\n Enter class:";
       gets(cls);
       cout<<" ";
+        //cout<<"hi";
     }
     //member function to display details
     void disdata()
