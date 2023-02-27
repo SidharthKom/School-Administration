@@ -27,8 +27,8 @@ void gotoxy(int x, int y)
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
 }
 void loading()
-{
-  for (int i=0;i<101;i++)
+{int i;
+  for (i=0;i<101;i++)
     {
       cout<<"loading…";
       gotoxy(40,10);
