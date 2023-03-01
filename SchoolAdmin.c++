@@ -46,7 +46,6 @@ void loading()
   }
   cout<<" \n\n\t\t PASSWORD ACCEPTED\a\a";
 }
-/*Account*/
 class account
   {
     int admino;
